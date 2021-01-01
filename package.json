@@ -19,6 +19,7 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.2",
+    "swiper": "^6.4.5",
     "tailwindcss": "^2.0.2"
   }
 }

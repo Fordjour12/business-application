@@ -3,4 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.active {
+  display: block;
+}
 
+.hidden {
+  display: hidden;
+}
