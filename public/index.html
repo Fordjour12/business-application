@@ -21,11 +21,11 @@
     />
   </head>
   <body>
-    <header class="bg-blue-300 flex justify-between py-3">
+    <header class="bg-blue-200 flex justify-between py-3 shadow-2xl">
       <a href="index.html" class="font-bold text-2xl uppercase mx-3"> logo</a>
 
       <div class="mx-3">
-        <button id="cta-btn">
+        <button id="cta-btn" class="focus:outline-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -54,21 +54,23 @@
           </svg>
         </button>
         <nav id="navigation" class="hidden">
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">profile</a></li>
-            <li><a href="#">sign up</a></li>
+          <ul class="text-center capitalize">
+            <li><a href="#" class="items-center">home</a></li>
+            <li><a href="#" class="items-center">about</a></li>
+            <li><a href="#" class="items-center">contact</a></li>
+            <li><a href="#" class="items-center">profile</a></li>
+            <li><a href="#" class="items-center">sign up</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <section class="hero__section py-2 bg-gray-100">
-        <div class="py-4 mx-3">
-          <h1>start your<br />business</h1>
-          <p>
+    <main class="pt-2">
+      <section class="py-2 bg-gray-200">
+        <div class="pt-7 mx-3">
+          <h1 class="text-5xl capitalize font-fira-sans font-extrabold pb-4">
+            start your<br />business
+          </h1>
+          <p class="font-Adinka text-base leading-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
             reprehenderit quisquam eos voluptas eligendi maxime quidem?
             Laboriosam eveniet reprehenderit, exercitationem aut minus dolore!
@@ -76,21 +78,30 @@
             harum fugiat! Voluptates impedit molestiae quae deserunt magnam
             porro vel, eaque atque modi provident! Provident, ut placeat.
           </p>
-          <button role="button">start</button>
+          <button
+            role="button"
+            class="bg-blue-600 text-lg text-white mx-7 px-7 py-2 tracking-wide hover:bg-blue-400 rounded-full mt-6"
+          >
+            start
+          </button>
         </div>
 
-        <div class="p-4">
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="p-4 flex">
+          <div class="rounded-full h-3 w-3 bg-blue-500 mr-2"></div>
+          <div class="rounded-full h-3 w-3 bg-gray-300 mr-2"></div>
+          <div class="rounded-full h-3 w-3 bg-gray-300 mr-2"></div>
         </div>
       </section>
 
-      <section class="company__values pt-20">
+      <section id="company__values" class="pt-10">
         <div class="mx-3">
           <div class="mx-1">
-            <h3>company values</h3>
-            <p>
+            <h3
+              class="text-3xl font-fira-sans font-semibold capitalize text-center pb-6"
+            >
+              company values
+            </h3>
+            <p class="text-center font-Adinka text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
               illum animi praesentium deleniti nostrum fugiat nam itaque
               voluptatem. Perferendis fugiat officiis velit accusamus doloremque
@@ -98,8 +109,8 @@
             </p>
           </div>
 
-          <div class="values py-11 mx-1">
-            <div>
+          <div id="values" class="py-11 mx-1">
+            <div class="w-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -115,7 +126,9 @@
                 />
               </svg>
               <div class="quality">
-                <h3 class="capitalize p-4">quality</h3>
+                <h3 class="p-4 capitalize font-fira-sans font-semibold text-lg">
+                  quality
+                </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
                   veritatis?
@@ -123,7 +136,7 @@
               </div>
             </div>
 
-            <div>
+            <div class="w-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -140,7 +153,9 @@
               </svg>
 
               <div class="helpful">
-                <h3 class="capitalize p-4">helpful</h3>
+                <h3 class="capitalize p-4 font-fira-sans font-semibold text-lg">
+                  helpful
+                </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
                   veritatis?
@@ -148,7 +163,7 @@
               </div>
             </div>
 
-            <div>
+            <div class="w-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -164,7 +179,9 @@
                 />
               </svg>
               <div class="quality">
-                <h3 class="capitalize p-4">quality</h3>
+                <h3 class="capitalize p-4 font-fira-sans font-semibold text-lg">
+                  quality
+                </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
                   veritatis?
@@ -172,7 +189,7 @@
               </div>
             </div>
 
-            <div>
+            <div class="w-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -189,7 +206,9 @@
               </svg>
 
               <div class="helpful">
-                <h3 class="capitalize p-4">helpful</h3>
+                <h3 class="capitalize p-4 font-fira-sans font-semibold text-lg">
+                  helpful
+                </h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
                   veritatis?
@@ -203,8 +222,12 @@
       <section>
         <div class="py-11">
           <div class="mx-3">
-            <h3>our work</h3>
-            <p>
+            <h3
+              class="text-3xl font-fira-sans font-semibold capitalize text-center pb-6"
+            >
+              our work
+            </h3>
+            <p class="text-center font-Adinka text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Temporibus, recusandae! Molestias ab omnis natus aliquid commodi
               nihil, a quidem quasi perferendis harum ea est id explicabo quos
@@ -225,7 +248,7 @@
                 />
               </svg>
 
-              <ul>
+              <ul class="text-center p-9 font-Adinka text-xl uppercase">
                 <li>photoshop</li>
                 <li>illustator</li>
                 <li>adobe xd</li>
@@ -234,34 +257,34 @@
               </ul>
 
               <div class="images pt-7">
-                <div class="py-6">
+                <div class="py-6 w-full">
                   <img src="assert/devin-h-co08dGob9S0-unsplash.jpg" />
-                  <div class="py-6">
-                    <h5 class="pb-4">devin-h-co08dGob9S0-unsplash</h5>
+                  <div class="py-6 uppercase">
+                    <h5 class="pb-4 font-bold">devin-h-co08dGob9S0-unsplash</h5>
                     <p>photoshop</p>
                   </div>
                 </div>
 
-                <div class="py-6">
+                <div class="py-6 w-full">
                   <img src="assert/undraw_Progress_overview_re_tvcl.png" />
-                  <div class="py-6">
-                    <h5 class="pb-4">progress overview</h5>
+                  <div class="py-6 uppercase">
+                    <h5 class="pb-4 font-bold">progress overview</h5>
                     <p>illustator</p>
                   </div>
                 </div>
 
-                <div class="py-6">
+                <div class="py-6 w-full">
                   <img src="assert/Event App Wireframe Design.png" />
-                  <div class="py-6">
-                    <h5 class="pb-4">event wireframe design</h5>
+                  <div class="py-6 uppercase">
+                    <h5 class="pb-4 font-bold">event wireframe design</h5>
                     <p>adobe xd</p>
                   </div>
                 </div>
 
-                <div class="py-6">
+                <div class="py-6 w-full">
                   <img src="assert/Fitness Application.png" />
-                  <div class="py-6">
-                    <h5 class="pb-4">fitness Application</h5>
+                  <div class="py-6 uppercase">
+                    <h5 class="pb-4 font-bold">fitness Application</h5>
                     <p>lunacy</p>
                   </div>
                 </div>
@@ -270,7 +293,98 @@
           </div>
         </div>
       </section>
+
+      <section id="teamMeet" class="bg-gray-100">
+        <div class="mx-3">
+          <div class="mx-1">
+            <h3
+              class="text-3xl font-fira-sans font-semibold capitalize text-center pb-6"
+            >
+              our team
+            </h3>
+            <p class="text-center font-Adinka text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+              illum animi praesentium deleniti nostrum fugiat nam itaque
+              voluptatem. Perferendis fugiat officiis velit accusamus doloremque
+              veniam ullam inventore, voluptas rerum corrupti?
+            </p>
+          </div>
+
+          <div class="py-6">
+            <div>
+              <img
+                src="assert/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
+                class="rounded-full h-44 w-44"
+              />
+              <div class="py-6">
+                <p class="font-fira-sans uppercase">title</p>
+                <h5
+                  class="pb-2 capitalize font-extrabold font-fira-sans text-lg"
+                >
+                  john doe
+                </h5>
+                <h6 class="capitalize font-Adinka text-sm">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Explicabo nihil in a incidunt eos enim iste. Ducimus doloribus
+                  culpa atque.
+                </h6>
+                <p class="uppercase font-bold">cto</p>
+              </div>
+              <img
+                src="assert/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg"
+                class="rounded-full h-44 w-44"
+              />
+              <div class="py-6">
+                <p class="font-fira-sans uppercase">title</p>
+                <h5
+                  class="pb-2 capitalize font-extrabold font-fira-sans text-lg"
+                >
+                  john doe
+                </h5>
+                <h6 class="capitalize font-Adinka text-sm">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Explicabo nihil in a incidunt eos enim iste. Ducimus doloribus
+                  culpa atque.
+                </h6>
+                <p class="capitalize font-bold">snr dev</p>
+              </div>
+              <img
+                src="assert/jonas-kakaroto-mjRwhvqEC0U-unsplash.jpg"
+                class="rounded-full h-44 w-44"
+              />
+              <div class="py-6">
+                <p class="font-fira-sans uppercase">title</p>
+                <h5
+                  class="pb-2 capitalize font-extrabold font-fira-sans text-lg"
+                >
+                  john doe
+                </h5>
+                <h6 class="capitalize font-Adinka text-sm">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Explicabo nihil in a incidunt eos enim iste. Ducimus doloribus
+                  culpa atque.
+                </h6>
+                <p class="capitalize font-bold">dev</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="bg-blue-300 py-2">
+      <div class="mx-2">
+        <a
+          href="index.html"
+          class="font-bold text-2xl uppercase mx-3 font-fira-sans"
+        >
+          logo</a
+        >
+        <h3 class="font-fira-sans font-bold py-1">&copy; 2021</h3>
+        <p class="font-Adinka font-medium capitalize">
+          created by phantom techn
+        </p>
+      </div>
+    </footer>
   </body>
   <script src="js/index.js"></script>
 </html>

@@ -22,6 +22,10 @@ module.exports = {
       "fira-sans": ["fira sans"],
       Adinka: ["Adinka"],
     },
+    fontweight: {
+      semibold: 600,
+      extrabold: 800,
+    },
     extend: {},
   },
   variants: {
